@@ -1,4 +1,4 @@
-; Made by Jakob Vesterberg, Jakob.C.Vesterberg@gmail.com
+; Made by Jakob Vesterberg, Jakob.f.Vesterberg@gmail.com
 
 ﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
@@ -34,4 +34,4 @@ return
 
 ^F1:: Process, Close, ethminer.exe
 
-; Made by Jakob Vesterberg, Jakob.C.Vesterberg@gmail.com
+; Made by Jakob Vesterberg, Jakob.f.Vesterberg@gmail.com
