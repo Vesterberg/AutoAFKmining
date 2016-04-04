@@ -1,3 +1,5 @@
+; Made by Jakob Vesterberg, Jakob.C.Vesterberg@gmail.com
+
 ﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
 ; #Warn  ; Enable warnings to assist with detecting common errors.
 SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
@@ -31,3 +33,5 @@ return
 ^F2::Pause
 
 ^F1:: Process, Close, ethminer.exe
+
+; Made by Jakob Vesterberg, Jakob.C.Vesterberg@gmail.com
