@@ -2,7 +2,7 @@
 
 Made for Windows
 
-Simople script that starts Ethminer when user is inactive. Stops Ethminer when user input is registered
+Simple script that starts Ethminer when user is inactive. Stops Ethminer when user input is registered
 
 Ctrl+F1 Stops any ethminer process that is running
 
