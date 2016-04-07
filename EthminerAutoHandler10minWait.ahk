@@ -7,8 +7,7 @@ SetTimer, HaltEthminerAtUserInput, 250
 SetTimer, StartEthminerAtUserInactivity, 250
 
 StartEthminerAtUserInactivity:
-	sleep, 60000
-	IfGreaterOrEqual, A_TimeIdlePhysical, 300000
+	IfGreaterOrEqual, A_TimeIdlePhysical, 600000
 	{
 		Process, Exist, ethminer.exe
 		If ErrorLevel = 0
@@ -19,7 +18,7 @@ StartEthminerAtUserInactivity:
 return
 
 HaltEthminerAtUserInput:
-	IfLess, A_TimeIdlePhysical, 290000
+	IfLess, A_TimeIdlePhysical, 590000
 	{
 		Process, Exist, ethminer.exe
 		If ErrorLevel <> 0
